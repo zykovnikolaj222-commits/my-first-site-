@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Адаптивна навігація Flexbox</title>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+
+    <header>
+        <div class="square"></div>
+            <nav>
+                <ul class="container"> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="form.html">Contacts</a></li>
+                </ul>
+            </nav>
+    </header>
+    
+    <main>
+        <section class="content-section">
+            <h2>🖼️ Галерея</h2>
+            <p>Nunc nec nisl non mi fermentum laoreet. Nullam at eros ac libero consectetur maximus. Aliquam erat volutpat. Fusce feugiat, libero vitae semper gravida, metus neque interdum lacus, ut euismod leo velit vel orci.</p>
+            <p>Suspendisse potenti. Praesent sollicitudin, magna vitae ultricies malesuada, odio tellus feugiat nisi, vel interdum quam risus in massa. (Тут можна було б розмістити галерею з елементами Flexbox/Grid).</p>
+        </section>
+    </main>
+
+    <div id="main">
+
+        <p>ПЕРШИЙ СПОСІБ РОЗСТАНОВКИ КАРТИНОК В РЯД</p>
+
+        <div class="img-container">
+            <ul>
+                <li><img src="images/halo_1.jpg" alt="HALO wallpaper"></li>
+                <li><img src="images/2.png" alt="ASCII art"></li>
+                <li><img src="images/3.jpg" alt="Mitsubishi Lancer Evo 8"></li>
+                <li><img src="images/4.jpg" alt="Karas"></li>
+
+            </ul>
+        </div>
+
+        <p>ДРУГИЙ СПОСІБ РОЗСТАНОВКИ КАРТИНОК В РЯД</p>
+
+        <div class="inline-img">
+            <img src="images/halo_1.jpg" alt="HALO wallpaper">
+            <img src="images/2.png" alt="ASCII art">
+            <img src="images/3.jpg" alt="Mitsubishi Lancer Evo 8">
+            <img src="images/4.jpg" alt="Karas">
+            <img src="images/halo_1.jpg" alt="HALO wallpaper">
+            <img src="images/2.png" alt="ASCII art">
+            <img src="images/3.jpg" alt="Mitsubishi Lancer Evo 8">
+            <img src="images/4.jpg" alt="Karas">
+            <img src="images/halo_1.jpg" alt="HALO wallpaper">
+            <img src="images/2.png" alt="ASCII art">
+            <img src="images/3.jpg" alt="Mitsubishi Lancer Evo 8">
+            <img src="images/4.jpg" alt="Karas">
+        </div>
+    </div>
+
+    <div class="multimedia">
+        <div class="multimedia-video">
+            <video controls>
+                <source src="video/movie.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+</body>
+</html>
